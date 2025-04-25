@@ -1,6 +1,6 @@
 # Language‑Classifier – Jednowarstwowa sieć perceptronowa  
 
-Prosty projekt w **Javie**, który uczy się rozpoznawać język (angielski, niemiecki, polski, hiszpański + dowolne kolejne) na podstawie pojedynczego zdania.  
+Prosty projekt w **Javie**, który uczy się rozpoznawać język (angielski, niemiecki, polski, hiszpański + dowolne kolejne) na podstawie dostarczonego tekstu.  
 Model to *jednowarstwowa sieć perceptronowa*: każdy język ma własny perceptron, a klasyfikacja polega na wyborze tego z najwyższą aktywacją.
 
 ---
