@@ -16,18 +16,25 @@ Model to *jednowarstwowa sieć perceptronowa*: każdy język ma własny perceptr
 
 ## Struktura projektu
 ```
-├── src
-│   ├── languageclassifier
-│   │   ├── LangMain.java         # klasa z metodą main
-│   │   ├── MultiLayerNetwork.java
-│   │   └── MultiTeacher.java
-│   └── perceptron
-│       ├── Perceptron.java       # klasa bazowa
-│       ├── DiscretePerceptron.java
-│       └── ...                 
-├── lang.train.csv                # dane treningowe
-├── lang.test.csv                 # dane testowe
-└── README.md
+MPP3_zad3_s25056/
+├── resources/
+│   ├── lang.test.csv
+│   ├── lang.train.csv
+│   ├── perceptron.data
+│   └── perceptron.test.data
+├── src/
+│   ├── languageclassifier/
+│   │   ├── LangMain.java          # Bazowy plik Main do uruchomienia sieci
+│   │   ├── MultiLayerNetwork.java
+│   │   └── MultiTeacher.java
+│   └── perceptron/
+│       ├── DiscretePerceptron.java
+│       ├── Evaluator.java
+│       ├── Main.java
+│       ├── Perceptron.java
+│       └── Teacher.java
+└── MPP 03 - Ewaluacja.pdf
+
 ```
 
 ## Format danych
