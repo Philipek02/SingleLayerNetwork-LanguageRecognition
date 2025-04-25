@@ -51,15 +51,6 @@ spanish,"Esta es una frase española"
 2. Ustaw *Working directory* na główny folder projektu (Edit Configurations → Working directory).  
 3. Uruchom `LangMain`.
 
-### Konsola (Javac)
-```bash
-# skompiluj
-javac -d out $(find src -name "*.java")
-
-# uruchom – pamiętaj o ścieżce do CSV
-cd out
-java languageclassifier.LangMain
-```
 
 ## Dodawanie nowych języków
 1. **Dopisz wiersze** z nowym językiem w `lang.train.csv` **i** `lang.test.csv`.  
